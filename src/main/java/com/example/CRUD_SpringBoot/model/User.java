@@ -1,7 +1,8 @@
-package app.CRUD_SpringBoot.model;
+package com.example.CRUD_SpringBoot.model;
 
 
 import jakarta.persistence.*;
+
 @Entity
 @Table(name = "users")
 public class User {

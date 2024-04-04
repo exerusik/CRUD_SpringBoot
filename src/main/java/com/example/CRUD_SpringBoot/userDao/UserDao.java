@@ -1,6 +1,6 @@
-package app.CRUD_SpringBoot.userDao;
+package com.example.CRUD_SpringBoot.userDao;
 
-import app.CRUD_SpringBoot.model.User;
+import com.example.CRUD_SpringBoot.model.User;
 
 import java.util.List;
 

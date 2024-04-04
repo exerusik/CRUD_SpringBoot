@@ -1,7 +1,8 @@
-package app.CRUD_SpringBoot.userService;
+package com.example.CRUD_SpringBoot.userService;
 
-import app.CRUD_SpringBoot.model.User;
-import app.CRUD_SpringBoot.userDao.UserDao;
+
+import com.example.CRUD_SpringBoot.model.User;
+import com.example.CRUD_SpringBoot.userDao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

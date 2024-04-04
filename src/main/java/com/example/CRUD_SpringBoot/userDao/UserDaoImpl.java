@@ -1,11 +1,12 @@
-package app.CRUD_SpringBoot.userDao;
+package com.example.CRUD_SpringBoot.userDao;
 
-import app.CRUD_SpringBoot.model.User;
+
+import com.example.CRUD_SpringBoot.model.User;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import jakarta.persistence.*;
 
 import java.util.List;
-
 
 @Repository
 public class UserDaoImpl implements UserDao {

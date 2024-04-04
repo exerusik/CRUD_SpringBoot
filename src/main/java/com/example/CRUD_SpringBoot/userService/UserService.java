@@ -1,7 +1,7 @@
-package app.CRUD_SpringBoot.userService;
+package com.example.CRUD_SpringBoot.userService;
 
 
-import app.CRUD_SpringBoot.model.User;
+import com.example.CRUD_SpringBoot.model.User;
 
 import java.util.List;
 

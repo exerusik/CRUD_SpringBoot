@@ -1,7 +1,8 @@
-package app.CRUD_SpringBoot.controllers;
+package com.example.CRUD_SpringBoot.controllers;
 
-import app.CRUD_SpringBoot.model.User;
-import app.CRUD_SpringBoot.userService.UserService;
+
+import com.example.CRUD_SpringBoot.model.User;
+import com.example.CRUD_SpringBoot.userService.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
